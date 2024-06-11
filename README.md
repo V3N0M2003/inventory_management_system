@@ -4,9 +4,11 @@
 This is a simple inventory management system for an e-commerce store. The system allows administrators to add and remove products from inventory, and customers to add items to their carts. Additionally, the system supports applying discount coupons to cart values.
 
 # Data Structures
-Inventory: A dictionary (inventory) to keep track of product IDs and their quantities.
-Carts: A dictionary (carts) where each key is a customer ID, and the value is another dictionary representing the customer's cart (product IDs and quantities).
-Discount Coupons: A dictionary (discounts) to store discount details with discount IDs.
+1. Inventory: A dictionary (inventory) to keep track of product IDs and their quantities.
+
+2. Carts: A dictionary (carts) where each key is a customer ID, and the value is another dictionary representing the customer's cart (product IDs and quantities).
+
+3. Discount Coupons: A dictionary (discounts) to store discount details with discount IDs.
 
 # APIs
 1. AddItemToInventory(productId, quantity)
